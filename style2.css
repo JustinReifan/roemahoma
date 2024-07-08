@@ -475,3 +475,8 @@ header a{
         transition: filter 2s;
     }
 }
+@media screen and (max-width: 768px){
+    .icon-cover{
+        background: none !important;
+    }
+}
