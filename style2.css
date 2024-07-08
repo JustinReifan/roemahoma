@@ -461,12 +461,15 @@ header a{
     .content-about{
         padding-top: 35vh;
     }
+    
 }
 
 @media screen and (min-width: 1900px) {
     .carousel .list .item .content{
         transform: translateX(-60%);
     }
+    
+    
 }
 
 @media screen and (max-width: 992px){
