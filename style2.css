@@ -337,7 +337,7 @@ header a{
     color: white;
     text-align: center;
     z-index: 1;
-    padding-top: 9vh;
+    padding-top: 30vh;
 }
 
 .text-about{
@@ -370,7 +370,7 @@ header a{
         font-size: 1.5em;
     }
     .content-about{
-        padding-top: 190px;
+        padding-top: 30vh;
     }
     
 }
@@ -406,7 +406,7 @@ header a{
         font-size: 1.55em;
     }
     .content-about{
-        padding-top: 300px;
+        padding-top: 30vh;
         padding-right: 50px;
         padding-left: 50px;
     }
@@ -428,6 +428,9 @@ header a{
     }
     .carousel .list .item .author{
         font-size: 1.8em;
+    }
+    .content-about{
+        padding-top: 35vh;
     }
 }
 
