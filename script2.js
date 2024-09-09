@@ -89,3 +89,23 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             document.getElementById('status').innerText = 'Failed to send email. Please try again later.';
         });
 });
+
+
+// const observer = new IntersectionObserver(entries => {
+//     // Loop over the entries
+//     entries.forEach(entry => {
+//       // If the element is visible
+//       console.log(entry);
+//       if (entry.isIntersecting) {
+//         // Add the animation class
+//         entry.target.classList.add('slideRight');
+//       }
+//     });
+//   });
+  
+//   observer.observe(document.querySelector('.icon-fixed1'));
+
+document.addEventListener('scroll', function(){
+    document.getElementById('icon-fixed1').classList.add('slideLeft');
+    document.getElementById('icon-fixed2').classList.add('slideRight');
+})
